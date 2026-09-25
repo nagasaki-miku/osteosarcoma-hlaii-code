@@ -4,6 +4,12 @@ Analysis code and processed research tables supporting:
 
 **Disentangling HLA-II expression in osteosarcoma: an osteogenic RNA gradient and its myeloid-dominant protein context**
 
+## Public access
+
+This repository and its release assets are publicly accessible. The manuscript version is the [code-package-20260906 release](https://github.com/nagasaki-miku/osteosarcoma-hlaii-code/releases/tag/code-package-20260906). Public access was enabled on 2026-09-25.
+
+The original archive is preserved with its existing checksum. Statements inside that dated snapshot about a repository not yet being assigned describe the preparation stage; the links on this page provide the current access route. No software license or DOI is assigned by this visibility change.
+
 ## Download the complete code package
 
 The complete **702-file** package is distributed as a **Release asset** to preserve the full directory hierarchy. Open **Releases** in this repository and download:
@@ -46,4 +52,4 @@ No software license has been selected, and no archival DOI has been assigned. Se
 
 完整代码和数据位于 **Releases** 中的 `osteosarcoma-hlaii-code_20260906.zip`，共 702 个文件。请下载该附件并解压，再阅读包内 `README_zh.md`。GitHub 自动生成的 **Source code (zip)** 仅包含本仓库首页文件，不是完整研究代码包。
 
-目前仓库为私有；代码包的下载和查看遵循该仓库的访问权限。最小复现从冻结的 509 个细胞的处理后配对数据开始，整篇论文的原始数据全流程并未在本次重新运行。
+仓库及 Release 附件已于 2026-09-25 公开，可直接查看和下载，无需向通讯作者申请访问。最小复现从冻结的 509 个细胞的处理后配对数据开始，整篇论文的原始数据全流程并未在本次重新运行。
