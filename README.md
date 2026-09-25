@@ -42,6 +42,10 @@ The T2 command recomputes all 5 primary tests, 35 sensitivity tests, 45 descript
 
 The archive includes 110 Python and 8 R files. The entire original-data-to-manuscript workflow was not rerun in a fresh environment. See the package's `docs/REPRODUCIBILITY.md` for the verified scope and remaining external inputs.
 
+## Access and minimum-run verification
+
+On 2026-09-25, the named release archive was downloaded without GitHub authentication and its SHA-256 and 701 manifest entries were verified. The pinned dependencies installed in a newly created Python 3.12 environment. The portable T2 command reproduced the 5 primary, 35 sensitivity, 45 diagnostic and 25 quintile-summary rows, with zero numerical difference from the archived tables. The Figure 6 command also completed using all 509 paired cells. These checks cover the packaged processed-data entry points, not a rerun of the full raw-data workflow.
+
 ## Privacy and distribution status
 
 The release contains the separately screened code package. Direct author/contact information, machine-specific account paths, credential files, environment/configuration snapshots, Git history, original Office documents and local audit records are excluded. Public dataset accessions, pseudonymous sample identifiers and cell barcodes are retained for scientific joins. Package preparation did not change scientific numeric table values.
